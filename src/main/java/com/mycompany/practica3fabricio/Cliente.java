@@ -31,6 +31,12 @@ public class Cliente {
     int edad;
 
     /**
+     * Constructor vacio.
+     */
+    public Cliente()
+    {}
+    
+    /**
      * Método obtener del nombre de la clase cliente.
      * @return Contiene el nombre de un cliente.
      */
@@ -108,7 +114,7 @@ public class Cliente {
      * @return Retorna un mensaje de confirmación de guardado.
      */
     public String setEdad(int edad) {
-        String msj = "Se ha guardado la edad correctamente";
+        String msj = "Guardado exito";
         if (edad >= 18) {
             this.edad = edad;
         }else{
