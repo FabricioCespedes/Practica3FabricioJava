@@ -24,10 +24,10 @@ public class Cliente {
         this.apellido2 = apellido2;
         this.identificacion = identificacion;
     }
-    String nombre;
-    String apellido1;
-    String apellido2;
-    String identificacion;
+    private String nombre;
+    private String apellido1;
+    private String apellido2;
+    private String identificacion;
     int edad;
 
     /**

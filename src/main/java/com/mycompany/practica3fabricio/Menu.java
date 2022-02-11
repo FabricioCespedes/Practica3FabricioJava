@@ -13,12 +13,12 @@ import java.util.Arrays;
  * @author Progra
  */
 public class Menu {    
-    ArrayList<String> listaMenu = new ArrayList<>();
-    int icono;
-    static int contador ;
+    private ArrayList<String> listaMenu = new ArrayList<>();
+    private int icono;
+    private static int contador = 0 ;
     public Menu(int tipoIcono, String...lista)
     {
-        listaMenu.add("Clientes");
+        listaMenu.add("Clientes");  
         listaMenu.addAll(Arrays.asList(lista));
         
         icono = tipoIcono;
